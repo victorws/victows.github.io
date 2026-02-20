@@ -1,0 +1,329 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+/* ********************************************* */
+/* Navbar */
+/* ********************************************* */
+.display-4 {
+    font-family: Lato;
+    font-weight: 600;
+    text-align: center;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 1.3em;
+    letter-spacing: -.03em;
+    text-transform: none;
+    color:white;
+    text-shadow: 0 0 15px black;
+}
+
+.navbar-brand {
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #222 !important;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    padding: 0 2%;
+  }
+
+
+a.nav-link:hover {
+    color: black !important;
+}
+
+#navbarSupportedContent, a.nav-link {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lead {
+    font-family: Lato;
+    font-weight: 200;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.3em;
+    letter-spacing: -.03em;
+    text-transform: none;
+    color:white;
+    text-shadow: 0 0 15px black;
+}  
+
+#custom-navbar {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+
+/* ********************************************* */
+/* Jumbotron */
+/* ********************************************* */
+
+
+.jumbotron{
+  background-image: url(../images/b1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  text-align: center;  
+}
+
+
+/* ********************************************* */
+/* About */
+/* ********************************************* */
+
+.container {
+    text-align: center;
+}
+
+#explain p {
+  text-align: justify;
+}
+
+#profile {
+    /* height: 500px;
+    width: 200px; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+#profile {
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#explain {
+    margin-top: 60px;
+}
+
+#explain p {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+/* ********************************************* */
+/* Experience */
+/* ********************************************* */
+.carousel-inner {
+    width: 350px;
+    height: 490px;
+    margin: auto;
+}
+
+.animation .carousel-control-prev,
+.animation .carousel-control-next {
+    bottom: 1px;
+    
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill= '%23caa472' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23caa472' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+.carousel .carousel-indicators li{
+    margin-bottom: 80px;
+    background-image: #fff;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #caa472;
+}
+
+/* .carousel-inner {
+  border-style: solid;
+  border-color: #caa472;
+} */
+
+
+.col-xl-4.col-lg-12 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.skill {
+    margin-top: 70px;
+}
+
+.skill-1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+.skill-2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+/* @media only screen and (max-width: 1092px) and (min-width: 845px) {
+  div.skill {
+    margin-left: 90px;
+  }
+} */
+
+
+.words{
+  font-size: 14px;
+  margin: 10px 5px 10px 10px;
+  font-family: Cabin;
+  color: #000;
+  font-weight: bold;
+}
+
+.words > div {
+  height: 25px;
+  text-align: end;
+  margin: 0 0 10px 0;
+}
+
+.bar {
+  flex-direction: column;
+  width: 80%;
+}
+
+/* whole bar */
+.progress {
+  height: 25px;
+  width: 380px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    .progress {
+        width: 100%;
+    }
+}
+
+/* bar contents */
+.progress-bar {
+  background-color: #caa472 !important;
+  font-family: Oswald;
+  font-size: 15px;
+  transition: background-color 0.2s ease-out,
+  color 0.2s ease-out;
+}
+
+.progress-bar:hover, .progress-bar:focus {
+  background-color: #fff;
+  color: #000;
+  /* font-weight: bold; */
+  transition: background-color 0.3s ease-in,
+  color 0.3s ease-in;
+  cursor: context-menu;
+}
+
+
+/* ********************************************* */
+/* Contact */
+/* ********************************************* */
+
+.contact {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.resume {
+  font-family: "Open Sans";
+  color: #caa472;
+  padding: 8px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: lightgrey;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.resume:hover, .resume:focus {
+border-color: #caa472;
+background-color: #caa472;
+color: white;
+transition: background-color border-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.btn {
+    border-width: 2px;
+    border-color: #caa472;
+} 
+
+.social {
+    margin-top: 10px;
+}
+
+.icons {
+    padding: 0.1em;
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 30px;
+  }
+
+.icons:hover, .icons:focus {
+  color: #caa472;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-link {
+  color: black;
+}
+
+.contactlabel {
+  cursor: default;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+hr {
+  margin-top: 100px;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+}
